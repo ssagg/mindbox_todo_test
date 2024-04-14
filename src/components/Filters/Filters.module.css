@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(250, 250, 250);
+  margin-top: 10px;
+  box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+  -webkit-box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+  -moz-box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+}

@@ -1,0 +1,10 @@
+.todoListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  /* margin: 20px 0; */
+  background-color: #747474;
+  box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+  -webkit-box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+  -moz-box-shadow: 1px 3px 5px -1px rgba(69, 69, 69, 0.66);
+}
