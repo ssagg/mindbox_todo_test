@@ -1,15 +1,15 @@
+import { ITodo } from "../../models/models";
 import { ADD_TODO, REMOVE_TODO, TOGGLE_TODO } from "./todos-const";
 
-import { ITodo } from "../../models/models";
+// interface TodoState {
+//   todos: ITodo[];
+// }
 
-interface TodoState {
-  todos: ITodo[];
-}
-
-enum ActionTypes {
-  ADD_TODO = "ADD_TODO",
-  TOGGLE_TODO = "TOGGLE_TODO",
-}
+// enum ActionTypes {
+//   ADD_TODO = "ADD_TODO",
+//   TOGGLE_TODO = "TOGGLE_TODO",
+//   REMOVE_TODO = "REMOVE_TODO",
+// }
 
 interface AddTodoAction {
   type: string;
@@ -35,9 +35,6 @@ export interface RemoveTodoAction {
 }
 
 type Action = AddTodoAction | ToggleTodoAction | RemoveTodoAction;
-// const initialState: TodoState = {
-//   todos: [],
-// };
 
 const initialState: ITodo[] = [];
 

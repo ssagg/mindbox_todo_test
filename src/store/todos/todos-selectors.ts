@@ -1,4 +1,3 @@
-import { ITodo } from "../../models/models";
 import { RootState } from "..";
 
 export const selectAllTodos = (state: RootState) => state.todos;
