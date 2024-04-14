@@ -1,8 +1,8 @@
 {
   "name": "mindbox",
   "private": true,
-  "homepage": "https://emmanuelkumah.github.io/mindbox_todo_test",
-  "version": "0.0.0",
+  "homepage": "https://ssagg.github.io/mindbox_todo_test",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
